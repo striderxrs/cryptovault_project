@@ -1,0 +1,15 @@
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\WindowsApplication1.CVmain.resources
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\WindowsApplication1.Form2.resources
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\WindowsApplication1.Form3.resources
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\Cryptovault.vbproj.GenerateResource.Cache
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\bin\Debug\Cryptovault.exe
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\bin\Debug\Cryptovault.pdb
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\bin\Debug\Cryptovault.xml
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\Cryptovault.exe
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\Cryptovault.xml
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\Cryptovault.pdb
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\bin\Debug\Cryptovault.exe.manifest
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\bin\Debug\Cryptovault.application
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\Cryptovault.exe.manifest
+C:\Users\Strider\Desktop\Cryptovault\s3-backup\utils\gui\Cryptovault\Cryptovault\obj\x86\Debug\Cryptovault.application
