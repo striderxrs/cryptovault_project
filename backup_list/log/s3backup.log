@@ -33,7 +33,7 @@
 2013-03-11 19:27:23,048: test.s3restore (103)- Calling handle_download. args.date = 3 11 2013
 2013-03-11 19:27:23,382: test.s3restore (367)- Invalid path "C:\test" given. Using default directory C:\Users\Strider\Desktop\Cryptovault\tmp\backup
 2013-03-11 19:27:47,665: test.s3restore (109)- Saved file to C:\Users\Strider\Desktop\Cryptovault\tmp\backup\20130311.tar.bz2.
-2013-03-11 19:32:50,025: test.s3backup (159)- Added E:\Groove Center™\Hes_a_pirate.mp3.
+2013-03-11 19:32:50,025: test.s3backup (159)- Added E:\Groove Centerâ„¢\Hes_a_pirate.mp3.
 2013-03-11 19:32:52,278: test.s3backup (183)- key: <Key: cryptovault,test1/weekly/20130311.tar.bz2>
 2013-03-11 19:32:52,278: test.s3backup (184)- meta:enc: True
 2013-03-12 09:43:58,341: test.s3backup (144)- Added E:\Project\Test\1.jpg.
@@ -42,7 +42,7 @@
 2013-03-12 09:43:58,763: test.s3backup (144)- Added F:\genesis\grp event.jpg.
 2013-03-12 09:44:01,734: test.s3backup (168)- key: <Key: cryptovault,test1/daily/20130312.tar.bz2>
 2013-03-12 09:44:01,734: test.s3backup (169)- meta:enc: True
-2013-03-12 10:42:49,244: test.s3backup (144)- Added E:\Groove Center™\Hes_a_pirate.mp3.
+2013-03-12 10:42:49,244: test.s3backup (144)- Added E:\Groove Centerâ„¢\Hes_a_pirate.mp3.
 2013-03-12 10:42:53,160: test.s3backup (168)- key: <Key: cryptovault,test1/weekly/20130312.tar.bz2>
 2013-03-12 10:42:53,161: test.s3backup (169)- meta:enc: True
 2013-03-12 10:50:42,878: test.s3restore (346)- The key "enc" does not exist.
@@ -363,7 +363,7 @@
 2013-03-14 21:24:00,884: test.s3restore (62 )- Extracting icons/64/Zootool.png
 2013-03-14 21:29:22,799: test.s3restore (293)- Archive: C:\Users\Strider\Desktop\Cryptovault\tmp\backup\20130314.tar.bz2
 2013-03-14 21:30:27,177: test.s3restore (271)- Extracting <TarInfo 'tswallpaper.png' at 0x296c990> to C.
-2013-03-14 21:33:11,898: test.s3usercfg (65 )- Keys: AKIAIARHS5CQCSKS6QWA, 0Sq7az+jKpPDpCId85uCWX4jPo/I2LsPt67xXG/h
+2013-03-14 21:33:11,898: test.s3usercfg (65 )- Keys: 1ZK1AKIAIARHS5CQCSKS6QWA, 02Fgg0Sq7az+jKpPDpCId85uCWX4jPo/I2LsPt67xXG/h
 2013-03-14 21:33:41,454: test.s3backup (144)- Added E:\Project\Test\1.jpg.
 2013-03-14 21:33:41,650: test.s3backup (144)- Added E:\Project\Test\2.jpg.
 2013-03-14 21:33:41,653: test.s3backup (144)- Added F:\genesis\grp event.jpg.
