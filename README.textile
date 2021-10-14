@@ -1,0 +1,8 @@
+h2. s3backup
+
+s3backup is a collection of utilities to generate automatic cloud backups (scheduled via cron/Task Scheduler/launchd) through Amazon.com's AWS S3 service. The bucket / key naming system is such that multiple machines at multiple locations can be backed up, easily organized, and easily restored.
+
+The suite has been tested on Windows 8 (64-bit w/ 64-bit Python).
+
+AES encryption via pycrypto ensures all data is secure while off-site. 
+The file's hash is calculated for verification.
