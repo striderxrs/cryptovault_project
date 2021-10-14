@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Cryptovault.exe" version="1.0.0.1" publicKeyToken="4721a9d24af0bfe2" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Cryptovault" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Cryptovault.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cryptovault.exe" size="571392">
+      <assemblyIdentity name="Cryptovault" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lUFaDYorhuevfXS5ow6isRjObjk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>URL06q74HUQEMsdOeah8EOMBqwU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Raptor-X2\StriderXrs" issuerKeyHash="5e6f30246d111a1d7e7331eed113aa62553191e4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vH6Vzu7Wg5TSmoaEf3yhw19lHNY=</DigestValue></Reference></SignedInfo><SignatureValue>pk+koTs3phGcrvAJ4cba0g/DYZOx/CfTPCNtQPmptNUQ12P8ojfFWeR/hA25x2ZCey6TMmyff9z1Ewgo+TvvNQuVN2TpXi2mINX0hJpJxf/pZuRT+ewMIL/v3jP8EHycrbUGQaagPDMU2PwPsks5bZQ11qVKx+5o065R8nYozwY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0e0LcGIVMaoxeFwWsaugT6gXvqfmkRadnx9VpfsQa96066zhuTqyplhEE90TDTBcoPraLHwCFuPWFa0O8JhPgySCctonrIt8Acgjd6wpe0hH/EA1v8Cy+t8BChjbw8WRWtzvSS4//xs2Odwv5dFYlOQJUac8RM1WmG3RojqqOzM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d61c655fc3a17c7f84869ad29483d6eece957ebc" Description="" Url=""><as:assemblyIdentity name="Cryptovault.exe" version="1.0.0.1" publicKeyToken="4721a9d24af0bfe2" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Raptor-X2\StriderXrs</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0us5Z0U9jbLmfZg7rh/bwEP33Uk=</DigestValue></Reference></SignedInfo><SignatureValue>tGLBPx8PhlHSl5YPeqbKx8hDO6dgl7wero18uIlSuYiCnpQTpMFrI617fNwLMUXZaQeu3mS7Lw3yLXVH4JtlwIx8xVRaIpWNPf8w1vTE7pMg3/4owNy+ySESMhDSsX0ECxT6CK+peDU/3P5qkwFYP8siD4jcOiTIyMDGupRAVsQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0e0LcGIVMaoxeFwWsaugT6gXvqfmkRadnx9VpfsQa96066zhuTqyplhEE90TDTBcoPraLHwCFuPWFa0O8JhPgySCctonrIt8Acgjd6wpe0hH/EA1v8Cy+t8BChjbw8WRWtzvSS4//xs2Odwv5dFYlOQJUac8RM1WmG3RojqqOzM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQSBcYgA9suaRKjCzLKCee4TANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigAUgBhAHAAdABvAHIALQBYADIAXABTAHQAcgBpAGQAZQByAFgAcgBzMB4XDTEzMDMzMTE0NDcxOVoXDTE0MDMzMTIwNDcxOVowMzExMC8GA1UEAx4oAFIAYQBwAHQAbwByAC0AWAAyAFwAUwB0AHIAaQBkAGUAcgBYAHIAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0e0LcGIVMaoxeFwWsaugT6gXvqfmkRadnx9VpfsQa96066zhuTqyplhEE90TDTBcoPraLHwCFuPWFa0O8JhPgySCctonrIt8Acgjd6wpe0hH/EA1v8Cy+t8BChjbw8WRWtzvSS4//xs2Odwv5dFYlOQJUac8RM1WmG3RojqqOzMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQDQ6bMOhj/UNbicd9jo1MpbXQC35/77Ob9MQ9ayNGYms+zfmIMSny03nwQiwIO0TcQZxEHc99qemBo1SDMPDpCU6hTbX32aQa8IcMxg1OIhKlGKrPzw4w/bRNUPpT/tK8a8RoIyy1vYty0luCtfRXXnB0nK+QnWvPBNTBCZO5vYbA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
